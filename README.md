@@ -14,11 +14,12 @@ Wyzwanie ma na celu solidne zwiększenie moich umiejętności w zakresie pracy j
 - bardzo dobre opanowanie metod właściwych stringom, tablicom, hashom itd.
 - poznanie nowych gemów
 
-artykuły które przeczytałem i opracowałem:
+#### artykuły które przeczytałem i opracowałem:
 - [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide) - 8 maja 2019
+
 (poszczególne opracowania znajdują się w konkretnych folderach z datą)
 
-filmy / tutoriale / konferencje które obejrzałem:
+#### filmy / tutoriale / konferencje które obejrzałem:
 > https://www.youtube.com/playlist?list=PLjA7YlEvW1Fb0Ivu7-xyUiiStLINiwIvF
 
 
