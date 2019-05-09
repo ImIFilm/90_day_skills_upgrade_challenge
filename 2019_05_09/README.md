@@ -44,7 +44,7 @@ prog.rb:2:in `a'
 prog.rb:6:in `b'
 prog.rb:10
 ```
-- 
+- inne ciekawe metody na exception: full_message(z kolorowaniem), inspect (klasa wyjątku i wiadomość)
 - lepiej używać raise niż fail
 - nie używać formy raise RuntimeError w dwuargumentowym raise, bo to jest już domyślnie rozpoznawane jako ten RuntimeEroor
 - warto uzywać dwuargumentowego raise, np:
