@@ -32,6 +32,7 @@ end
 
 john = Person.new("John", 5, 1000, 60)
 john.to_s
+
 begin
   john.get_dog(1)
 rescue => exception
@@ -41,8 +42,17 @@ rescue => exception
   puts "################\n"
 end
 john.to_s
+
 john.find_free_time(200)
-john.get_dog(1)
+
+begin
+  john.get_dog(1)
+rescue => exception
+  puts "\n################"
+  puts exception.message
+  puts exception.backtrace
+  puts "################\n"
+end
 john.to_s
 
 
