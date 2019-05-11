@@ -13,7 +13,6 @@ czas poświęcony na naukę: 1h
 - typy pozostałe to takie, które należy dołączyć w bibliotekach
 
 **liczby**
-- liczby typu **Fixnum** - operacje na nich wykonywane są sprzętowo; jeśli wynik operacji przekracza ich zakres, następuje automatyczna konwersja do Bignum (podobnie w drugą stronę w przypadku gdy wartość operacji na Bignumach zmieści się w zakresie Fixnuma)
 - operatory matematyczne zachowują się zgodnie z naturalnymi priorytetami
 - możemy nadpisywać operatory np. +, -, / do klas, nie będących liczbami
 - w Rails jest np. bardzo ciekawa opcja:
