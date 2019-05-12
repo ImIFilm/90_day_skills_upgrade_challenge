@@ -17,7 +17,8 @@ Wyzwanie ma na celu solidne zwiększenie moich umiejętności w zakresie pracy j
 #### artykuły które przeczytałem i opracowałem:
 - [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide) - 8 maja 2019
 - [Exceptions in Ruby](https://www.honeybadger.io/blog/a-beginner-s-guide-to-exceptions-in-ruby/) - 9 maja 2019
-- [Typy danych w Ruby] (http://www.apohllo.pl/dydaktyka/ruby/intro/typy-danych)
+- [Typy danych w Ruby] (http://www.apohllo.pl/dydaktyka/ruby/intro/typy-danych) - 10 maja 2019
+- [Pliki w Ruby] (https://www.rubyguides.com/2015/05/working-with-files-ruby/) - 12 maja 2019
 
 (poszczególne opracowania znajdują się w konkretnych folderach z datą)
 
