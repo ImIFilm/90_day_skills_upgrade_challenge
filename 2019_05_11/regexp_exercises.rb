@@ -1,4 +1,4 @@
-# from lecture: https://www.youtube.com/watch?v=JfwS4ibJFDw
+# class from lecture: https://www.youtube.com/watch?v=JfwS4ibJFDw
 class CaseConverter
   def upcase_characters(string)
     string.gsub(/(\A_?[a-z]|(?<=_)[a-z])/) {|char| char.upcase}

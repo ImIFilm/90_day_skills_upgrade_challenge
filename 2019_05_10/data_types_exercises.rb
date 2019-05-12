@@ -6,7 +6,10 @@ puts "1_000_000_000.class:"
 puts 1_000_000_000.class
 puts
 puts "Integer.sqrt(10**46) "
-puts Integer.sqrt(10**46) 
+puts 10**46
 puts
-puts "Math.sqrt(10**46).floor"
-puts Math.sqrt(10**46).floor
+range=[1..9]
+puts "[1..9]"
+puts range.to_a
+puts "[1...9]"
+puts [1...9].to_a.each do |x| puts x end
