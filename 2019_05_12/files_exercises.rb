@@ -20,5 +20,4 @@ puts "BASE NAME WITHOUT EXTENSION: " + File.basename("tmp/lor.txt", ".txt")
 puts "BIRTH DATE: " + File.birthtime("lorem.txt").to_s
 puts "DIRECTORY NAME: " + File.dirname("/tmp/lor.txt")
 puts "DIRECTORY?: " + File.directory?("tmp").to_s
-puts File.stat("tmp")
 
