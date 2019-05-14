@@ -34,4 +34,4 @@ File.write("log.txt", "#{Time.now} - User logged in\n", mode: "a") # krocej dopi
 - metody do plików, które warto znać to np. rename, size, exists?, extname, basename, dirname, directory?, birthname
 
 ### co przećwiczyłem?
-- różne zabawy z keyword arguments https://github.com/ImIFilm/90_day_skills_upgrade_challenge/blob/master/2019_05_12/files_exercises.rb
+- różne zabawy z plikami: https://github.com/ImIFilm/90_day_skills_upgrade_challenge/blob/master/2019_05_12/files_exercises.rb
