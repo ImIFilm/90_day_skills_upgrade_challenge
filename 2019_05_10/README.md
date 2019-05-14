@@ -28,6 +28,8 @@ czas poświęcony na naukę: 1h
 (1...10)
 ```
 jeśli są dwie kropki, wartość górna należy do przedziału, a dla trzech nie
+- ciekawą metodą jest .step(_num_), które iteruje z krokiem co _num_
+- 
 
 **stringi**
 - możemy je zapisywać w pojedynczych lub podwójnych nawiasach, z tym że dla 'Ruby' napis jest traktowany literalnie, a dla "Ruby" możemy dokonywać podstawień
@@ -117,4 +119,4 @@ ha["abc"]
 
 
 ### co przećwiczyłem?
-- różne zabawy z keyword arguments https://github.com/ImIFilm/90_day_skills_upgrade_challenge/blob/master/2019_05_08/data_types_exercises.rb
+- różne zabawy z typami danych: https://github.com/ImIFilm/90_day_skills_upgrade_challenge/blob/master/2019_05_08/data_types_exercises.rb
