@@ -7,4 +7,3 @@ czas poświęcony na naukę: 1h
 
 
 ### co przećwiczyłem?
-- różne zabawy z hashami https://github.com/ImIFilm/90_day_skills_upgrade_challenge/blob/master/2019_05_15/hash_exercises.rb
