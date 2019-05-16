@@ -61,13 +61,45 @@ hash.flatten(2) # => [1, "one", 2, 2, "two", 3, "three"]
 
 hash.has_key?("a") # czy zawiera klucz?
 
-hash.has_value("a") # czy zawiera wartość?
+hash.has_value?("a") # czy zawiera wartość?
 
 hash.invert # odwraca hasha tak jakby miejscami
 hash = { "n" => 100, "m" => 100, "y" => 300, "d" => 200, "a" => 0 }
 hash.invert   #=> {0=>"a", 100=>"m", 200=>"d", 300=>"y"}
 
-hash.keep_if 
+hash.keys #zwraca tavblicę z kluczami
+
+hash.length # zwraca ilość par klucz - wartość
+
+hash.member?(key) # mówi czy key jest obecny w hashu
+
+h1 = { "a" => 100, "b" => 200 }
+h2 = { "b" => 246, "c" => 300 }
+h3 = { "b" => 357, "d" => 400 }
+h1.merge #=> {"a"=>100, "b"=>200}
+h1.merge(h2) #=> {"a"=>100, "b"=>246, "c"=>300}
+h1.merge(h2, h3) #=> {"a"=>100, "b"=>357, "c"=>300, "d"=>400}
+h1.merge(h2) {|key, oldval, newval| newval - oldval} #=> {"a"=>100, "b"=>46,  "c"=>300}
+
+hash = { "a" => 100, "b" => 200, "c" => 300 }
+hash.reject {|k,v| k < "b"}  #=> {"b" => 200, "c" => 300}
+hash.reject {|k,v| v > 100}  #=> {"a" => 100}
+
+hash.replace(other hash) # podmiana
+
+hash.slice(:a) # zwraca tylko hasha zawierającego określone klucze
+
+h = { a: 1, b: 2, c: 3 }
+h.transform_keys {|k| k.to_s } #=> { "a" => 1, "b" => 2, "c" => 3 }
+h.transform_keys(&:to_sym) #=> { a: 1, b: 2, c: 3 }
+
+h = { a: 1, b: 2, c: 3 }
+h.transform_values {|v| v * v + 1 } #=> { a: 2, b: 5, c: 10 }
+h.transform_values(&:to_s) #=> { a: "1", b: "2", c: "3" }
+
+hash.values #zwraca wszystkie wartości z hasha
+
+hash.values_at(key1, key2) #zwraca wartości dla podanych kluczy
 ```
 
 ### co przećwiczyłem?
