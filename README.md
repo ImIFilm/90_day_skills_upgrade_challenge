@@ -19,6 +19,8 @@ Wyzwanie ma na celu solidne zwiększenie moich umiejętności w zakresie pracy j
 - [Exceptions in Ruby](https://www.honeybadger.io/blog/a-beginner-s-guide-to-exceptions-in-ruby/) - 9 maja 2019
 - [Typy danych w Ruby] (http://www.apohllo.pl/dydaktyka/ruby/intro/typy-danych) - 10 maja 2019
 - [Pliki w Ruby] (https://www.rubyguides.com/2015/05/working-with-files-ruby/) - 12 maja 2019
+- [dokumentacja klasy Array] (https://docs.ruby-lang.org/en/2.5.0/Array.html) - 14 maja 2019
+- [dokumentacja klasy Hash] (https://docs.ruby-lang.org/en/2.6.3/Hash.html) - 15 maja 2019
 
 (poszczególne opracowania znajdują się w konkretnych folderach z datą)
 
