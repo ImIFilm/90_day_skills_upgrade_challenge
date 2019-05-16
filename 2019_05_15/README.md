@@ -15,6 +15,7 @@ hash["pear"] = 9
 hash = Hash.new(0) # inicjalizacja z domyślną wartością
 hash.default = 0 # inny sposób ustawienia domyślnej wartości
 ```
+
 - można porównywać czy hash jest podzbiorem innego (albo czy jest podzbiorem lub równym):
 ```ruby
 h1 = {a:1, b:2}
