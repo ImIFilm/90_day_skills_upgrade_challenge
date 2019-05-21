@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+        <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
+  <div id="header">
+			<% if current_page?(root_path) %>
+				<p>All Posts</p>
+        <%= link_to "About", about_path %></li>
+			<% elsif current_page?(about_path) %>
+				<p>About</p>
+			<% else %>
+				<%= link_to "Back to All Posts", root_path %>
+        <%= link_to "About", about_path %></li>
+			<% end %>
+
+			<% if user_signed_in? %>
+				<div class="buttons">
+					<button class="button"><%= link_to "New Post", new_post_path %></button>
+					<button class="button">Log Out</button>
+				</div>
+			<% end %>
+		</div>
+    <%= yield %>
+  </body>
+</html>
